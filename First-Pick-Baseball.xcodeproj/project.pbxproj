@@ -15,6 +15,10 @@
 		3C05BBAD1C9DC44E002C30D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C05BBAB1C9DC44E002C30D5 /* LaunchScreen.storyboard */; };
 		3C05BBB81C9DC44E002C30D5 /* First_Pick_BaseballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05BBB71C9DC44E002C30D5 /* First_Pick_BaseballTests.m */; };
 		3C05BBC31C9DC44E002C30D5 /* First_Pick_BaseballUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05BBC21C9DC44E002C30D5 /* First_Pick_BaseballUITests.m */; };
+		3C05BBD21C9DC737002C30D5 /* PlayerListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05BBD11C9DC737002C30D5 /* PlayerListTableViewController.m */; };
+		3C05BBD51C9DC87A002C30D5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05BBD41C9DC87A002C30D5 /* Player.m */; };
+		3C05BBD81C9DCC71002C30D5 /* Coach.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05BBD71C9DCC71002C30D5 /* Coach.m */; };
+		FC8D5C641225410A84DDD6E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558D1AFC195B883C988009FC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19FB5ECAF77C5863CBEAF2EC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3C05BB9A1C9DC44E002C30D5 /* First-Pick-Baseball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-Pick-Baseball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05BB9E1C9DC44E002C30D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C05BBA01C9DC44E002C30D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		3C05BBBE1C9DC44E002C30D5 /* First-Pick-BaseballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First-Pick-BaseballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05BBC21C9DC44E002C30D5 /* First_Pick_BaseballUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First_Pick_BaseballUITests.m; sourceTree = "<group>"; };
 		3C05BBC41C9DC44E002C30D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C05BBD01C9DC737002C30D5 /* PlayerListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListTableViewController.h; sourceTree = "<group>"; };
+		3C05BBD11C9DC737002C30D5 /* PlayerListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListTableViewController.m; sourceTree = "<group>"; };
+		3C05BBD31C9DC87A002C30D5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3C05BBD41C9DC87A002C30D5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3C05BBD61C9DCC71002C30D5 /* Coach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coach.h; sourceTree = "<group>"; };
+		3C05BBD71C9DCC71002C30D5 /* Coach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coach.m; sourceTree = "<group>"; };
+		558D1AFC195B883C988009FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF301433A5CF61E7593D23B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8D5C641225410A84DDD6E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				3C05BBB61C9DC44E002C30D5 /* First-Pick-BaseballTests */,
 				3C05BBC11C9DC44E002C30D5 /* First-Pick-BaseballUITests */,
 				3C05BB9B1C9DC44E002C30D5 /* Products */,
+				D3E3FDC6A40FB21F8581FDB6 /* Pods */,
+				F0178B033CB322089FBD0647 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +122,9 @@
 				3C05BBA31C9DC44E002C30D5 /* ViewController.h */,
 				3C05BBA41C9DC44E002C30D5 /* ViewController.m */,
 				3C05BBA61C9DC44E002C30D5 /* Main.storyboard */,
+				3C05BBD91C9DCD75002C30D5 /* Models */,
+				3C05BBD01C9DC737002C30D5 /* PlayerListTableViewController.h */,
+				3C05BBD11C9DC737002C30D5 /* PlayerListTableViewController.m */,
 				3C05BBA91C9DC44E002C30D5 /* Assets.xcassets */,
 				3C05BBAB1C9DC44E002C30D5 /* LaunchScreen.storyboard */,
 				3C05BBAE1C9DC44E002C30D5 /* Info.plist */,
@@ -140,6 +159,34 @@
 			path = "First-Pick-BaseballUITests";
 			sourceTree = "<group>";
 		};
+		3C05BBD91C9DCD75002C30D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C05BBD61C9DCC71002C30D5 /* Coach.h */,
+				3C05BBD71C9DCC71002C30D5 /* Coach.m */,
+				3C05BBD31C9DC87A002C30D5 /* Player.h */,
+				3C05BBD41C9DC87A002C30D5 /* Player.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3E3FDC6A40FB21F8581FDB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FB5ECAF77C5863CBEAF2EC /* Pods.debug.xcconfig */,
+				AF301433A5CF61E7593D23B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0178B033CB322089FBD0647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558D1AFC195B883C988009FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C05BBC71C9DC44E002C30D5 /* Build configuration list for PBXNativeTarget "First-Pick-Baseball" */;
 			buildPhases = (
+				69734FEA097053CC01D93517 /* Check Pods Manifest.lock */,
 				3C05BB961C9DC44E002C30D5 /* Sources */,
 				3C05BB971C9DC44E002C30D5 /* Frameworks */,
 				3C05BB981C9DC44E002C30D5 /* Resources */,
+				3CF7A7B834A2AEDDF7E9E6E7 /* Embed Pods Frameworks */,
+				9C8A334955BEDBB5D7174655 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +315,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CF7A7B834A2AEDDF7E9E6E7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69734FEA097053CC01D93517 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8A334955BEDBB5D7174655 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C05BB961C9DC44E002C30D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C05BBD81C9DCC71002C30D5 /* Coach.m in Sources */,
 				3C05BBA51C9DC44E002C30D5 /* ViewController.m in Sources */,
 				3C05BBA21C9DC44E002C30D5 /* AppDelegate.m in Sources */,
+				3C05BBD21C9DC737002C30D5 /* PlayerListTableViewController.m in Sources */,
 				3C05BB9F1C9DC44E002C30D5 /* main.m in Sources */,
+				3C05BBD51C9DC87A002C30D5 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +510,7 @@
 		};
 		3C05BBC81C9DC44E002C30D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FB5ECAF77C5863CBEAF2EC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "First-Pick-Baseball/Info.plist";
@@ -420,6 +522,7 @@
 		};
 		3C05BBC91C9DC44E002C30D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF301433A5CF61E7593D23B3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "First-Pick-Baseball/Info.plist";
@@ -496,6 +599,7 @@
 				3C05BBC91C9DC44E002C30D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C05BBCA1C9DC44E002C30D5 /* Build configuration list for PBXNativeTarget "First-Pick-BaseballTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +608,7 @@
 				3C05BBCC1C9DC44E002C30D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C05BBCD1C9DC44E002C30D5 /* Build configuration list for PBXNativeTarget "First-Pick-BaseballUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +617,7 @@
 				3C05BBCF1C9DC44E002C30D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
